@@ -31,4 +31,3 @@ for rinda in range(2,lastRow+1):
     else:
         kanali['c'+str(rinda)].value= "JAUNS"
         kanali['b'+str(rinda)].value= jaunais
-###
