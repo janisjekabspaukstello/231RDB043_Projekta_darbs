@@ -1,9 +1,9 @@
 # 231RDB043_Projekta_darbs
 ## Projekta uzdevums
-    Projekta uzdevums ir izveidot programmu. kas sarakstā, kas atrodas excel failā pēc dotās informācijas atgriež tajā pašā failā saites uz jaunākajiem video Youtube kanālos no sarakstā norādītajiem.
+    Projekta uzdevums ir izveidot programmu, kas sarakstā, kas atrodas excel failā pēc dotās informācijas papildina šī paša faila lapu ar saitēm uz jaunākajiem video Youtube kanālos katram no sarakstā norādītajiem vietnes kanāliem un veikt balsošanu par Nacionālās Basketbola Asociācijas zvaigžņu spēles vēlamajiem dalībniekiem atlasot spēlētājus, kas norādīti attiecīgā excel faila lapā.
 
 ## Bibliotēkas
-    Šinī projektā izmantotas selenium un openpyxl bibliotēkas. Selenium bibliotēka izmantota lai piekļūtu interneta resursiem, lai varētu izgūt informāciju par jaunākajiem videomateriāliem atlsītajos kanālos. Openpyxl bibliotēka izmantota excel faila nolasīšanai un ievadīšanai.
+    Šajā projektā izmantotas selenium un openpyxl bibliotēkas. Selenium bibliotēka izmantota, lai piekļūtu interneta resursiem, lai varētu izgūt informāciju par jaunākajiem videomateriāliem atlsītajos kanālos un veikt interneta balsojumu par iepriekš izvēlētiem basketbola spēlētājiem, kas ierakstīti excel failā. Openpyxl bibliotēka izmantota excel faila nolasīšanai un rakstīšanai, lai būtu pieejami nepieciešamie dati selenium bibliotēkas darbībai interneta resursos.
 
 ## Programmatūras metodes
-    Programmatūru var izmantot pielāgojot excel sarakstu ar youtube kanālu video saraksta lapām un palaižot programmu iegūstot jaunāko informāciju par visu kanālu jaunākajiem video.
+    Programmatūru var izmantot pielāgojot excel sarakstu ar youtube kanālu video saraksta lapām un palaižot programmu iegūstot jaunāko informāciju par visu kanālu jaunākajiem video. Tāpat var pielāgot spēlētāju sarakstu ar vēlamajiem Nacionālās Basketbola Asociācijas zvaigžņu spēles dalībniekiem un startēt programmu, lai tā veiktu nepieciešamās darbības balsojuma veikšanai. Koda rakstā var atkomentēt attiecīgos kometārbloka indikatorus, lai varētu palaist atsevišķi šīs abas programmas daļas. Tā kā balsošanai ir nepieciešams izveidots konts attiecīgajā vietnē, tad šāda konta neeksistences gadījumā tāds jāizveido un koda rakstā vietā, kur ir norādīts konta e-pasts un konta parole, tajos jāievada attiecīgie parametri atbilstoši sava konta parametriem.
